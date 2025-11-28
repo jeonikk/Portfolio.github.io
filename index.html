@@ -2,389 +2,221 @@
 <html lang="ko">
 
 <head>
-	<title>신입 개발자 전익환</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-	<link rel="stylesheet" href="css/aos.css">
-
-	<link rel="stylesheet" href="css/ionicons.min.css">
-
-	<link rel="stylesheet" href="css/flaticon.css">
-	<link rel="stylesheet" href="css/icomoon.css">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <title>전익환 포트폴리오</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body>
+
+    <header id="header">
+        <nav class="nav-container">
+            <div class="nav-logo">IKHWAN</div>
+            <ul class="nav-menu">
+                <li><a href="#profile-section">PROFILE</a></li>
+                <li><a href="#about-two-column">ABOUT ME</a></li>
+                <li><a href="#viewSkills">SKILLS</a></li>
+                <li><a href="#projects-card">PROJECTS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="app">
+
+        <section id="viewLogo" class="fade-up">
+            <div class="typing-container">
+                <span class="typing-text black" id="typing-main"></span>
+                <span class="typing-sub" id="typing-sub"></span>
+            </div>
+        </section>
+
+        <div class="container">
+
+            <section id="profile-section" class="fade-up">
+                <div class="section-title" style="color:#ebb44d;">PROFILE</div>
+
+                <div class="profile-container">
+                    <div class="profile-image-wrap">
+                        <img src="./img/profile.png" alt="profile" class="profile-image">
+                    </div>
+
+                    <div class="profile-info">
+                        <h1 class="profile-name">
+                            전익환 <span class="eng-name">Jeon IkHwan</span>
+                        </h1>
+
+                        <div class="job-badge">Full Stack Web Developer</div>
+
+                        <ul class="info-list">
+                            <li><img src="./icons/mail.png"> meister1213@naver.com</li>
+                            <li><img src="./icons/call.png"> 010-3334-3469</li>
+                            <li><img src="./icons/notion.png"><a
+                                    href="https://www.notion.so/b2fc83c65e8846b4a3681a7628eab639">My Notion</a></li>
+                            <li><img src="./icons/git.png"><a href="https://github.com/jeonikk">My GIT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about-two-column" class="fade-up">
+                <div class="section-title">ABOUT ME</div>
+
+                <div class="about-wrap">
+                    <div class="about-text">
+                        <p>
+                            6개월간의 국비 교육 과정에서 웹 개발의 기초부터
+                            React · Spring Boot 기반 풀스택 개발 역량을 탄탄하게 다졌습니다.
+                        </p>
+
+                        <p>
+                            팀 프로젝트에서는 고객센터 · 문의 시스템 · 프로필 페이지 등
+                            실제 서비스 운영에 필요한 기능들을 직접 설계하고 구현했습니다.
+                            <br>
+                            이 과정에서 단순한 기능 개발을 넘어서
+                            사용자의 흐름과 경험을 고려한 UI/UX 설계의 중요성을 깊이 이해하게 되었습니다.
+                        </p>
+
+                        <p>
+                            저는 “사용자에게 도움이 되고, 실제 문제를 해결하는 서비스”를 만드는 개발자가 되고 싶습니다.
+                            꾸준히 배우고 성장하며 가치 있는 서비스를 만드는 것이 저의 목표입니다.
+                        </p>
+                        <div class="resume-btn-box">
+                            <a href="/입사지원서 - 전익환.docx" class="resume-btn" target="_blank">
+                                이력서 다운로드
+                            </a>
+                        </div>
+                    </div>
 
 
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-		<div class="container">
-			<a class="navbar-brand" href="index.html"><span>J</span>eonIkHwan</a>
-			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
-				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			</button>
+                </div>
+            </section>
 
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav nav ml-auto">
-					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-					<li class="nav-item"><a href="#education-section" class="nav-link"><span>Education</span></a></li>
-					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<section class="hero-wrap js-fullheight">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
-				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
-					<div class="text text-center">
-						<span class="subheading">Hello! I am</span>
-						<h1>전익환</h1>
-						<h2>I'm a
-							<span class="txt-rotate" data-period="500" data-rotate='[  "신입 개발자", "풀스택 개발자" ]'></span>
-						</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
-		<div class="mouse">
-			<a href="#" class="mouse-icon">
-				<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
-			</a>
-		</div>
-	</section>
+            <section id="viewSkills" class="fade-up">
+                <div class="section-title" style="color:#edb352;">SKILLS</div>
 
-	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
-		<div class="container">
-			<div class="row d-flex no-gutters">
-				<div class="col-md-6 col-lg-6 d-flex">
-					<div class="img-about img d-flex align-items-stretch">
-						<div class="overlay"></div>
-						<div class="img d-flex align-self-stretch align-items-center"
-							style="background-image:url(images/about1.jpg);">
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-6 pl-md-5 py-5">
-					<div class="row justify-content-start pb-3">
-						<div class="col-md-12 heading-section ftco-animate">
-							<h1 class="big">About</h1>
-							<h2 class="mb-4">About Me</h2>
-							<p>세밀한 부분까지 직접 확인하며 만드는 걸 좋아하는<br> 신입 개발자 전익환입니다. </p>
-							<ul class="about-info mt-4 px-md-0 px-2">
-								<li class="d-flex"><span>이름:</span> <span>전익환</span></li>
-								<li class="d-flex"><span>주소:</span> <span>대구시 수성구 범어동</span></li>
-								<li class="d-flex"><span>이메일:</span> <span>meister1213@naver.com</span></li>
-								<li class="d-flex"><span>연락처: </span> <span>+82-10-3334-3469</span></li>
-							</ul>
-						</div>
-					</div>
-					<div class="counter-wrap ftco-animate d-flex mt-md-3">
-						<div class="text">
-							<p class="mb-4">
-								<span class="number" data-number="1">0</span>
-								<span>Project complete</span>
-							</p>
-							<p><a target="_blank"
-									href="https://drive.google.com/file/d/1uJg0Yun35HWc4YsEKfEX5L6Uyik5MPl_/view?usp=sharing"
-									class="btn btn-primary py-3 px-3">이력서 다운받기</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                <div class="skill-icons">
+                    <div class="skill-card fade-icon">
+                        <div class="icon-box"><img src="./img/html.png" alt="HTML5"></div>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-card fade-icon">
+                        <div class="icon-box"><img src="./img/css.png" alt="CSS3"></div>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-card fade-icon">
+                        <div class="icon-box"><img src="./img/js.png" alt="JavaScript"></div>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-card fade-icon">
+                        <div class="icon-box"><img src="./img/react.png" alt="React"></div>
+                        <span>React</span>
+                    </div>
+                    <div class="skill-card fade-icon">
+                        <div class="icon-box"><img src="./img/java.png" alt="Java"></div>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-card fade-icon">
+                        <div class="icon-box"><img src="./img/springboot.png" alt="Spring Boot"></div>
+                        <span>Spring Boot</span>
+                    </div>
+                    <div class="skill-card fade-icon">
+                        <div class="icon-box"><img src="./img/mysql.png" alt="MySQL"></div>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="skill-card fade-icon">
+                        <div class="icon-box"><img src="./img/docker.png" alt="Docker"></div>
+                        <span>Docker</span>
+                    </div>
+                </div>
+            </section>
 
-	<section class="ftco-section ftco-no-pb ftco-counter img" id="section-counter">
-		<div class="container-fluid px-md-5">
-			<div class="row d-md-flex align-items-center">
-				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 shadow">
-						<div class="text">
-							<strong class="number" data-number="180">0</strong>
-							<span>코딩한 일수</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 shadow">
-						<div class="text">
-							<strong class="number" data-number="1">0</strong>
-							<span>참여한 프로젝트</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 shadow">
-						<div class="text">
-							<strong class="number" data-number="6">0</strong>
-							<span>Happy Customers</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 shadow">
-						<div class="text">
-							<strong class="number" data-number="10">0</strong>
-							<span>Cups of coffee</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+            <section id="projects-card" class="fade-up">
+                <div class="section-title">PROJECTS</div>
 
+                <div class="project-card-wrap">
 
-	<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					<nav id="navi">
-						<ul>
-							<li><a href="#page-1">Education</a></li>
-							<li><a href="#page-3">Skills</a></li>
-							<li><a href="#page-4">Projects</a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="col-md-9" id="education-section">
-					<div id="page-1" class="page one">
-						<h2 class="heading">Education</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2025.6-2025.12</span>
-								<h2>빅데이터 분석 및 UI 전문가</h2>
-								<span class="position">자바, 파이썬 기반 빅데이터 UI 전문가 양성과정</span>
-								<p>국비훈련과정을 통해 기초를 탄탄히 쌓고, 팀 프로젝트 준비하며 소통하고<br> 함께 성장할 줄 아는 개발자를 꿈꾸고 있습니다. </p>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <div class="project-card fade-icon project-row">
 
-				<div id="page-3" class="page three">
-					<h2 class="heading">Skills</h2>
+                        <div class="project-left">
+                            <img src="./img/hangle.png" class="project-thumb" alt="Hangle Project">
 
-					<div class="row text-center mt-4">
+                            <a href="https://github.com/Doidoria/Hangle-PROJECT" class="git-btn project-git-left">
+                                <img src="./icons/git-white.png" alt="git"> GitHub 보기
+                            </a>
+                        </div>
 
-						<!-- React -->
-						<div class="col-4 col-md-3 mb-4">
-							<img src="images/react.png" alt="React" style="width:70px;">
-							<p class="mt-2">React</p>
-						</div>
+                        <div class="project-right">
+                            <h3>Hangle</h3>
+                            <p>
+                                머신러닝 대회를 제공하며<br>
+                                예측 결과 CSV 제출 시 자동 채점 및 리더보드 반영 기능 제공하는 플랫폼
+                            </p>
 
-						<!-- Spring Boot -->
-						<div class="col-4 col-md-3 mb-4">
-							<img src="images/springboot.png" alt="Spring Boot" style="width:70px;">
-							<p class="mt-2">Spring Boot</p>
-						</div>
+                            <div class="project-did-title">WHAT I DID</div>
+                            <ul class="project-did-list">
+                                <li>고객센터 메인 페이지 구현</li>
+                                <li>1:1 문의 작성 페이지 제작</li>
+                                <li>나의 문의 목록 페이지 구현</li>
+                                <li>관리자용 문의 관리 페이지 구현</li>
+                                <li>UI 디자인 및 프론트 전체 기능 구현</li>
+                            </ul>
+                        </div>
 
-						<!-- MySQL -->
-						<div class="col-4 col-md-3 mb-4">
-							<img src="images/mysql.png" alt="MySQL" style="width:70px;">
-							<p class="mt-2">MySQL</p>
-						</div>
+                    </div>
 
-						<!-- Docker -->
-						<div class="col-4 col-md-3 mb-4">
-							<img src="images/docker.png" alt="Docker" style="width:70px;">
-							<p class="mt-2">Docker</p>
-						</div>
+                </div>
+            </section>
 
-						<!-- Java -->
-						<div class="col-4 col-md-3 mb-4">
-							<img src="images/java.png" alt="Java" style="width:70px;">
-							<p class="mt-2">Java</p>
-						</div>
+        </div>
 
-						<!-- HTML -->
-						<div class="col-4 col-md-3 mb-4">
-							<img src="images/html.png" alt="HTML" style="width:70px;">
-							<p class="mt-2">HTML5</p>
-						</div>
+        <footer id="viewFooter">© 2025 전익환 Portfolio</footer>
 
-						<!-- CSS -->
-						<div class="col-4 col-md-3 mb-4">
-							<img src="images/css.png" alt="CSS" style="width:70px;">
-							<p class="mt-2">CSS3</p>
-						</div>
+    </div>
 
-						<!-- JavaScript -->
-						<div class="col-4 col-md-3 mb-4">
-							<img src="images/js.png" alt="JavaScript" style="width:70px;">
-							<p class="mt-2">JavaScript</p>
-						</div>
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add("active");
+            });
+        }, { threshold: 0.15 });
 
-					</div>
-				</div>
+        document.querySelectorAll(".fade-up, .fade-icon").forEach(el => observer.observe(el));
 
-				<div id="page-4" class="page four">
-					<h2 id="projects-section" class="heading">Projects</h2>
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2025.11-2025.11</span>
-							<div class="d-flex">
-								<h2>Hangle</h2>
-								<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank"
-										class="btn btn-outline-secondary"
-										href="https://github.com/Doidoria/Hangle-PROJECT">Github</a>&nbsp;<a
-										class="btn btn-outline-secondary" target="_blank"
-										href="/images/project_1_screenshot.png">스크린샷</a>&nbsp;<a
-										class="btn btn-outline-secondary" target="_blank"
-										href="https://www.wellytravel.com/">Link</a>
-								</div>
-							</div>
-							<span class="position">사용자의 머신러닝 실력 순위를 참고할 수 있는 웹사이트</span>
-							<div> <b class="text-dark">기술 스택 : </b>React, Spring Boot, MySQL, Docker, Nginx, AWS EC2
-							</div>
-							<div> <b class="text-dark">주요 기능 : </b> 회원가입 및 JWT 로그인, 대회 및 문의 등록/수정/삭제/확인, 관리자 페이지 </div>
-							<p> React </p>
-						</div>
-					</div>
+        const mainText = "Jeon IkHwan";
+        const subText = "PORTFOLIO";
 
-				</div>
-			</div>
-		</div>
-		</div>
-	</section>
+        let mainIndex = 0;
+        let subIndex = 0;
 
+        function typeMain() {
+            if (mainIndex < mainText.length) {
+                document.getElementById("typing-main").textContent += mainText.charAt(mainIndex);
+                mainIndex++;
+                setTimeout(typeMain, 130);
+            } else setTimeout(typeSub, 400);
+        }
 
-	<section class="ftco-section ftco-hireme img" style="background-image: url(images/bg-img01.png)">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-7 ftco-animate text-center">
-					<h2>함께할 <span>회사를 찾는 중</span> 입니다.</h2>
-					<p class="mb-0"><a href="#contact-section" class="btn btn-primary py-3 px-5">연락주세요!</a></p>
-				</div>
-			</div>
-		</div>
-	</section>
+        function typeSub() {
+            if (subIndex < subText.length) {
+                document.getElementById("typing-sub").textContent += subText.charAt(subIndex);
+                subIndex++;
+                setTimeout(typeSub, 120);
+            }
+        }
 
-	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-		<div class="container">
-			<div class="row justify-content-center mb-5 pb-3">
-				<div class="col-md-7 heading-section text-center ftco-animate">
-					<h1 class="big big-2">Contact</h1>
-					<h2 class="mb-4">Contact Me</h2>
-					<p>디테일한 작업이 필요 하시다면 연락주세요! <br>감사합니다.</p>
-				</div>
-			</div>
+        window.onload = () => typeMain();
 
-			<div class="row d-flex contact-info mb-5">
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box text-center p-4 shadow">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="icon-map-signs"></span>
-						</div>
-						<div>
-							<h3 class="mb-4">거주지</h3>
-							<p>대구시 수성구 범어동</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box text-center p-4 shadow">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="icon-phone2"></span>
-						</div>
-						<div>
-							<h3 class="mb-4">연락처</h3>
-							<p><a href="tel://1234567920">+ 010 3334 3469</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box text-center p-4 shadow">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="icon-paper-plane"></span>
-						</div>
-						<div>
-							<h3 class="mb-4">이메일 주소</h3>
-							<p><a href="mailto:info@yoursite.com">meister1213@naver.com</a></p>
-							<p><a href="mailto:info@yoursite.com">jeonikk0226@gmail.com</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box text-center p-4 shadow">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="icon-globe"></span>
-						</div>
-						<div>
-							<h3 class="mb-4">참고사이트</h3>
-							<p><a href="https://www.notion.so/27e0addff0a080b2a42ed72f1af7edcb">Notion</a></p>
-							<p><a href="https://github.com/jeonikk">GitHub</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</section>
-
-
-	<footer class="ftco-footer ftco-section">
-		<div class="container">
-
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<p>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;
-						<script>document.write(new Date().getFullYear());</script> All rights reserved | <i
-							aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">전익환</a>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					</p>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-
-
-	<!-- loader -->
-	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-				stroke="#F96D00" />
-		</svg></div>
-
-
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery-migrate-3.0.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/aos.js"></script>
-	<script src="js/jquery.animateNumber.min.js"></script>
-	<script src="js/scrollax.min.js"></script>
-
-	<script src="js/main.js"></script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute("href"));
+                window.scrollTo({
+                    top: target.offsetTop - 80,
+                    behavior: "smooth"
+                });
+            });
+        });
+    </script>
 
 </body>
 
